@@ -21,8 +21,8 @@ public class ObjectCreatorTest {
         assertEquals ("Butch", user.getUsername());
         assertEquals ("Kateryna", user.getFirstname());
         assertEquals ("Cheremiskin", user.getLastname());
-        assertEquals ("Butch", user.getUsername());
-        assertEquals ("Butch", user.getUsername());
+        assertEquals ("20.02.1986", user.getBirthday());
+        assertEquals ("26", user.getAge());
 
     }
 }
